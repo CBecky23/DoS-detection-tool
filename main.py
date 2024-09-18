@@ -20,7 +20,7 @@ def DoSDetection():
     running = "Running detection..."
     progress.configure(text=running)
 
-    pcount = tk.Label(window, text='Waiting to receive packets!', bg='#282828', fg='#33FF00')
+    pcount = tk.Label(window, text='Waiting to receive packets!', bg='#000000', fg='#33FF00')
     pcount.place(relx=0.76, rely=0.60, anchor='center')
 
     # Minimum number of packets required to be flagged as a DoS attack
